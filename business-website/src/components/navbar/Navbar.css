@@ -111,7 +111,6 @@
 /* } */
 
 #site_header {
-  margin-top: 200px;
   border: 1px solid white;
   position: relative;
   z-index: 5;
@@ -132,6 +131,16 @@
   padding: 0.5rem 0 1rem;
   transform: translateY(0px);
   transition: all 0.3s ease-in-out;
+  animation: navbar 0.3s linear forwards;
+}
+@keyframes navbar {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
 }
 .navbar {
   border: 1px solid crimson;
