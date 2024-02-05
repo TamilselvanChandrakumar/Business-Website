@@ -1,6 +1,6 @@
-/* Navbar css */
-
-#site_header {
+/* Navbar css  */
+/* #site_header {
+  border: 1px solid white;
   position: relative;
   z-index: 5;
   &.sticky {
@@ -23,11 +23,13 @@
   transition: 0.3s all ease-in-out;
 
   .navbar {
+    border: 1px solid crimson;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     .navbar_brand img {
+      border: 1px solid white;
       max-width: 80%;
     }
     .navbar_toggler {
@@ -64,7 +66,7 @@
       }
       & ul {
         margin: 0;
-        padding: 0%;
+        padding: 0;
 
         & li {
           list-style: none;
@@ -105,5 +107,90 @@
   }
   50% {
     transform: translateY(-100px);
+  } */
+/* } */
+
+#site_header {
+  margin-top: 200px;
+  border: 1px solid white;
+  position: relative;
+  z-index: 5;
+  background-color: var(--bg-color);
+  padding: 0.5rem 0 1rem;
+  transform: translateY(0px);
+  transition: 0.3s all ease-in-out;
+}
+.navbar {
+  border: 1px solid crimson;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar_brand img {
+  max-width: 80%;
+}
+.navbar_toggler svg {
+  width: 1.4286rem;
+  height: 1.4286rem;
+}
+.navbar_toggler {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .navbar_toggler {
+    display: block;
+  }
+}
+.menu_items {
+  border: 1px solid burlywood;
+}
+
+.menu_items ul {
+  margin: 0;
+  padding: 0;
+}
+.menu_items li {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  padding: 0 1rem;
+}
+.menu_items a {
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--white-color);
+}
+.menu_items a:active,
+a:hover,
+a:focus {
+  color: #e21056;
+}
+@media (max-width: 992px) {
+  .menu_items {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: var(--bg-color);
+    transform: translateX(-250px);
+    transition: all 0.3 ease-in-out;
+  }
+  .active {
+    max-width: 250px;
+    min-width: 250px;
+    padding: 2rem;
+    box-sizing: border-box;
+    transform: translate(0px);
+  }
+  .menu_items li {
+    display: block;
+    border-bottom: 1px solid rgb(225, 225, 225, 0.2);
+  }
+  .menu_items a {
+    display: block;
+    padding: 1rem 0;
   }
 }

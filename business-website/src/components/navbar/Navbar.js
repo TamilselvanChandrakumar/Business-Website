@@ -67,6 +67,7 @@ const Navbar = () => {
           </nav>
         </div>
       </div>
+      {/* <div style={{ height: "1200px" }}></div> */}
     </>
   );
 };
