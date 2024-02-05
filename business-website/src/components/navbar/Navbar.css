@@ -120,6 +120,19 @@
   transform: translateY(0px);
   transition: 0.3s all ease-in-out;
 }
+.sticky {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 100;
+  width: 100%;
+  height: auto;
+  background-color: var(--bg-color);
+  padding: 0.5rem 0 1rem;
+  transform: translateY(0px);
+  transition: all 0.3s ease-in-out;
+}
 .navbar {
   border: 1px solid crimson;
   display: flex;
