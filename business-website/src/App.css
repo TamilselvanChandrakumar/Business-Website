@@ -80,6 +80,7 @@ html {
     box-shadow: 0 0.5rem 1rem rgb(16, 16, 16);
     outline: 2px solid var(--primary-color);
     outline-offset: 0px;
+    color: var(--white-color);
     border: none;
     cursor: pointer;
     background: var(--primary-color);
