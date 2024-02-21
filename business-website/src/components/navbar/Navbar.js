@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import logo from "../../assets/logo/companylogo.png";
+import { BsXLg } from "react-icons/bs";
 import { Link } from "react-scroll";
 import { MdDensityMedium } from "react-icons/md";
 import "./Navbar.css";
@@ -35,6 +36,11 @@ const Navbar = () => {
               <MdDensityMedium color="white" />
             </div>
             <div className={`menu_items ${sideNav === true ? "active" : null}`}>
+              <div className="toggle-cancel" onClick={() => setSideNav(false)}>
+                {" "}
+                <BsXLg color="white" size={40}></BsXLg>
+              </div>
+
               <ul>
                 <li>
                   <Link activeClass="active" to="home" spy={true} smooth={true}>
@@ -67,7 +73,6 @@ const Navbar = () => {
           </nav>
         </div>
       </div>
-      {/* <div style={{ height: "1200px" }}></div> */}
     </>
   );
 };
