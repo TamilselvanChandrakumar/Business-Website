@@ -22,59 +22,7 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   });
-  return (
-    <>
-      <div id="site_header" className={`${sticky ? "sticky" : null}`}>
-        <div className="container">
-          <nav className="navbar" id="Navbar">
-            <div className="navbar_brand">
-              <a href="/">
-                <img src={logo} alt="logo"></img>
-              </a>
-            </div>
-            <div className="navbar_toggler" onClick={sideNavBar}>
-              <MdDensityMedium color="white" />
-            </div>
-            <div className={`menu_items ${sideNav === true ? "active" : null}`}>
-              <div className="toggle-cancel" onClick={() => setSideNav(false)}>
-                {" "}
-                <BsXLg color="white" size={40}></BsXLg>
-              </div>
-
-              <ul>
-                <li>
-                  <Link activeClass="active" to="home" spy={true} smooth={true}>
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link to="about" spy={true} smooth={true}>
-                    About US{" "}
-                  </Link>
-                </li>
-                <li>
-                  <Link to="services" spy={true} smooth={true}>
-                    Services{" "}
-                  </Link>
-                </li>
-                <li>
-                  {" "}
-                  <Link to="blog" spy={true} smooth={true}>
-                    Blog{" "}
-                  </Link>
-                </li>
-                <li>
-                  <Link to="contact" spy={true} smooth={true}>
-                    Contact US{" "}
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </>
-  );
+  return <></>;
 };
 
 export default Navbar;

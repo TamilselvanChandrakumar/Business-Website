@@ -3,7 +3,7 @@ import BannerImage from "../../assets/banner/banner-img.jpg";
 const Home = () => {
   return (
     <>
-      <section id="home">
+      {/* <section id="home">
         <div className="banner_image"></div>
         <div className="container">
           <div className="banner_outer">
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
