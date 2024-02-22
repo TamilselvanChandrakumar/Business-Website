@@ -22,7 +22,39 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   });
-  return <></>;
+  return (
+    <>
+      <header className="navbar-header">
+        <div className="logo">
+          <img src={logo} alt=""></img>
+        </div>
+        <div className="sidebar-icon" onClick={sideNavBar}>
+          <MdDensityMedium color="white" size={20}></MdDensityMedium>
+        </div>
+        <nav
+          className={`navlink-container ${sideNav ? "active-sidebar" : null} `}
+        >
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#aboutus">about us</a>
+            </li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#contactus">Contacus</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </>
+  );
 };
 
 export default Navbar;
