@@ -9,6 +9,9 @@
 .sidebar-icon {
   display: none;
 }
+.sidebar-cancelbtn {
+  display: none;
+}
 .navlink-container li {
   display: inline-block;
   padding-right: 1.5rem;
@@ -19,25 +22,38 @@
   text-decoration: none;
   color: var(--font-color);
 }
-
+.navlink-container li a:hover,
+a:focus,
+a:visited {
+  color: crimson;
+}
 @media (max-width: 900px) {
-  .sidebar-icon {
-    display: block;
-  }
-  .logo img {
-    max-width: 100%;
-  }
   .navlink-container {
     position: absolute;
     top: 0%;
     bottom: 0;
     transform: translateX(-1000px);
   }
+  .sidebar-icon {
+    display: block;
+  }
+  .sidebar-cancelbtn {
+    display: block;
+    align-self: flex-end;
+    padding: 2rem;
+  }
+  .logo img {
+    max-width: 100%;
+  }
+
   .active-sidebar {
     width: 100vw;
     height: 100vh;
     transform: translateX(0px);
     border: 1px solid crimson;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
   }
   .navlink-container ul {
     width: 100%;
