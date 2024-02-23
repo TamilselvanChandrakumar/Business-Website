@@ -51,7 +51,6 @@ a:visited {
     display: block;
     align-self: flex-end;
     padding: 2rem;
-    transition: all 1s ease-out;
   }
   .logo img {
     max-width: 100%;

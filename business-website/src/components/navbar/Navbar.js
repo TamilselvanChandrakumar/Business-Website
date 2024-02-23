@@ -23,7 +23,7 @@ const Navbar = () => {
         <nav
           className={`navlink-container ${sideNav ? "active-sidebar" : null} `}
         >
-          <div className="sidebar-cancelbtn" onClick={() => setSideNav(false)}>
+          <div className="sidebar-cancelbtn" onClick={() => sideNavBar(false)}>
             <BsXLg color="white" size={30}></BsXLg>
           </div>
           <ul>
