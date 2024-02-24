@@ -1,9 +1,10 @@
 import React from "react";
 import BannerImage from "../../assets/banner/banner-img.jpg";
+import "../home/Home.css";
 const Home = () => {
   return (
     <>
-      {/* <section id="home">
+      <section id="home">
         <div className="banner_image"></div>
         <div className="container">
           <div className="banner_outer">
@@ -40,7 +41,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   );
 };
