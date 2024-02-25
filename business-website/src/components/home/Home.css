@@ -1,7 +1,7 @@
 #home {
   position: relative;
   overflow: hidden;
-  min-height: calc(100vh-84px);
+  min-height: 100vh;
   padding: 8rem 0 0;
 }
 @media (max-width: 767px) {
@@ -130,4 +130,25 @@
   border: 8px;
   width: max-content;
   height: max-content;
+}
+.banner_style_1 h4 {
+  margin: 0;
+  font-size: 1.286rem;
+  padding-left: 1rem;
+}
+.banner_style_2 {
+  right: 0;
+  left: 0;
+  bottom: -100px;
+}
+.banner_style_3 {
+  right: 0;
+  left: -119px;
+  bottom: 0px;
+  top: 26px;
+}
+@media (max-width: 992px) {
+  .banner_style_1 {
+    left: -20px;
+  }
 }
