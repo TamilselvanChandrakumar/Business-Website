@@ -31,16 +31,16 @@ const Navbar = () => {
               <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#aboutus">about us</a>
+              <a href="#aboutus">About us</a>
             </li>
             <li>
-              <a href="#home">Home</a>
+              <a href="#services">Services</a>
             </li>
             <li>
-              <a href="#home">Home</a>
+              <a href="#Blog">Blog</a>
             </li>
             <li>
-              <a href="#contactus">Contacus</a>
+              <a href="#contactus">Contact Us</a>
             </li>
           </ul>
         </nav>

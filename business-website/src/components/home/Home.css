@@ -23,6 +23,15 @@
   transform: scale(1.1);
   animation: wave 3s linear infinite;
 }
+@keyframes wave {
+  0%,
+  100% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(-10px, -10px);
+  }
+}
 .banner_image:before {
   content: "";
   position: absolute;
