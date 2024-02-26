@@ -3,7 +3,9 @@
 #about {
   border: 1px solid blue;
   padding: 3rem 0 6rem;
-  background-color: var(--primary-bg);
+  background: url("/home/minmini/Documents/Business-Website/business-website/src/assets/about/layer.png")
+    no-repeat center center;
+  background-size: cover;
 }
 
 @media (max-width: 992px) {
