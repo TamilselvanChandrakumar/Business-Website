@@ -1,0 +1,26 @@
+/* About us */
+
+#about {
+  border: 1px solid blue;
+  padding: 3rem 0 6rem;
+  background-color: var(--primary-bg);
+}
+
+@media (max-width: 992px) {
+  #about {
+    padding: 3rem 0;
+  }
+}
+
+.title_heading {
+  border: 1px solid white;
+  text-align: center;
+  max-width: 50rem;
+  margin: auto;
+}
+.title_heading h3 {
+  font-size: 2.5rem;
+  line-height: 3.214rem;
+  font-weight: 700;
+  color: var(--white-color);
+}
