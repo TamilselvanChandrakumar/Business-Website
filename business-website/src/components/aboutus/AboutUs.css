@@ -63,6 +63,17 @@
   padding: 1rem;
   text-align: center;
 }
+.about_icon {
+  width: 5.7143rem;
+  height: 5.7143rem;
+  margin: auto;
+  border-radius: 50%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 .about_content h5 {
   font-weight: 700;
   color: var(--white-color);

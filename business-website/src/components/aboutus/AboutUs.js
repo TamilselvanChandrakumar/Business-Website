@@ -1,5 +1,8 @@
 import React from "react";
 import "../aboutus/AboutUs.css";
+import { FaBusinessTime } from "react-icons/fa6";
+import { FaChartPie } from "react-icons/fa6";
+import { FaTruckFast } from "react-icons/fa6";
 const AboutUs = () => {
   return (
     <>
@@ -14,7 +17,9 @@ const AboutUs = () => {
           </div>
           <div className="about_box_wrapper">
             <div className="about_box">
-              <div className="about_icon"></div>
+              <div className="about_icon">
+                <FaBusinessTime color="red" size={40}></FaBusinessTime>
+              </div>
               <div className="about_content">
                 <h5>Development</h5>
                 <p>
@@ -25,7 +30,9 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="about_box">
-              <div className="about_icon"></div>
+              <div className="about_icon">
+                <FaChartPie color="green" size={40}></FaChartPie>
+              </div>
               <div className="about_content">
                 <h5>Integration</h5>
                 <p>
@@ -36,7 +43,9 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="about_box">
-              <div className="about_icon"></div>
+              <div className="about_icon">
+                <FaTruckFast color="blue" size={40}></FaTruckFast>
+              </div>
               <div className="about_content">
                 <h5>Branding</h5>
                 <p>
