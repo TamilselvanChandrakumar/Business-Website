@@ -100,7 +100,7 @@ const AboutUs = () => {
                   <p>
                     {" "}
                     Nemo enim ipsam oluptatem quia reoluptas sit aspernatur aut
-                    odit aut fugit, Nemo enim
+                    odit aut fugit, Nemo enim.
                   </p>
                 </div>
               </div>
