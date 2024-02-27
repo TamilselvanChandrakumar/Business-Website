@@ -188,3 +188,28 @@
 .img_info_box span {
   margin-left: 0.7143rem;
 }
+.more_space p {
+  font-size: 1.2143rem;
+  line-height: 2rem;
+  color: var(--font-color);
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+.grid_info {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+  grid-gap: 1.4286rem;
+  margin-bottom: 3rem;
+}
+.grid_details h4 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  color: var(--white-color);
+  margin: 0;
+}
+.grid_details p {
+  margin: 0;
+  font-size: 1rem;
+}
