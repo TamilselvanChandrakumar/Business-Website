@@ -33,7 +33,7 @@ const Services = () => {
             <div className="service_icon"></div>
             <h4 className="number">02</h4>
             <div className="service_content">
-              <h5>Report Analysis</h5>
+              <h5>Business Strategy</h5>
               <p>
                 {" "}
                 Nemo enim ipsam oluptatem quia reoluptas sit aspernatur aut odit
@@ -48,7 +48,7 @@ const Services = () => {
             <div className="service_icon"></div>
             <h4 className="number">03</h4>
             <div className="service_content">
-              <h5>Decision Maker</h5>
+              <h5>Report Analysis</h5>
               <p>
                 {" "}
                 Nemo enim ipsam oluptatem quia reoluptas sit aspernatur aut odit
@@ -63,7 +63,7 @@ const Services = () => {
             <div className="service_icon"></div>
             <h4 className="number">04</h4>
             <div className="service_content">
-              <h5>Customer Oriented</h5>
+              <h5>Decision Maker</h5>
               <p>
                 {" "}
                 Nemo enim ipsam oluptatem quia reoluptas sit aspernatur aut odit
@@ -78,7 +78,7 @@ const Services = () => {
             <div className="service_icon"></div>
             <h4 className="number">05</h4>
             <div className="service_content">
-              <h5>Solution Focused</h5>
+              <h5>Customer Oriented</h5>
               <p>
                 {" "}
                 Nemo enim ipsam oluptatem quia reoluptas sit aspernatur aut odit
@@ -93,7 +93,7 @@ const Services = () => {
             <div className="service_icon"></div>
             <h4 className="number">06</h4>
             <div className="service_content">
-              <h5>Cloud Computing</h5>
+              <h5>Solution Focused</h5>
               <p>
                 {" "}
                 Nemo enim ipsam oluptatem quia reoluptas sit aspernatur aut odit
