@@ -4,6 +4,9 @@ import aboutimg from "../../assets/about/about_img.jpg";
 import { FaBusinessTime } from "react-icons/fa6";
 import { FaChartPie } from "react-icons/fa6";
 import { FaTruckFast } from "react-icons/fa6";
+import { FaPhone } from "react-icons/fa6";
+import { FaHouseLaptop } from "react-icons/fa6";
+import { FaUserClock } from "react-icons/fa6";
 const AboutUs = () => {
   return (
     <>
@@ -70,6 +73,7 @@ const AboutUs = () => {
                   <br /> aut odit aut fugit,{" "}
                 </p>
                 <a href="/">
+                  <FaPhone></FaPhone>
                   <span>1-800-654-3210</span>
                 </a>
               </div>
@@ -83,7 +87,9 @@ const AboutUs = () => {
                 aspernatur aut ,
               </p>
               <div className="grid_info">
-                <div className="icon"></div>
+                <div className="icon">
+                  <FaUserClock size={40} color="red"></FaUserClock>
+                </div>
                 <div className="grid_details">
                   <h4>start your own business in minute</h4>
                   <p>
@@ -94,7 +100,9 @@ const AboutUs = () => {
                 </div>
               </div>
               <div className="grid_info">
-                <div className="icon"></div>
+                <div className="icon">
+                  <FaHouseLaptop size={40} color="green"></FaHouseLaptop>
+                </div>
                 <div className="grid_details">
                   <h4>Open a business account online</h4>
                   <p>
