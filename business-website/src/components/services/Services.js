@@ -22,7 +22,7 @@ const Services = () => {
         <div className="service_wrapper">
           <div className="service_box">
             <div className="service_icon">
-              <FaLaptopCode></FaLaptopCode>
+              <FaLaptopCode size={30} color="blue"></FaLaptopCode>
             </div>
             <h4 className="number">01</h4>
             <div className="service_content">
@@ -39,7 +39,7 @@ const Services = () => {
           </div>
           <div className="service_box">
             <div className="service_icon">
-              <FaChartBar></FaChartBar>
+              <FaChartBar size={30} color="red"></FaChartBar>
             </div>
             <h4 className="number">02</h4>
             <div className="service_content">
@@ -56,7 +56,7 @@ const Services = () => {
           </div>
           <div className="service_box">
             <div className="service_icon">
-              <FaCopy></FaCopy>
+              <FaCopy size={30} color="green"></FaCopy>
             </div>
             <h4 className="number">03</h4>
             <div className="service_content">
@@ -73,7 +73,7 @@ const Services = () => {
           </div>
           <div className="service_box">
             <div className="service_icon">
-              <FaMarker></FaMarker>
+              <FaMarker size={30} color="red"></FaMarker>
             </div>
             <h4 className="number">04</h4>
             <div className="service_content">
@@ -90,7 +90,7 @@ const Services = () => {
           </div>
           <div className="service_box">
             <div className="service_icon">
-              <FaUserGear></FaUserGear>
+              <FaUserGear size={30} color="green"></FaUserGear>
             </div>
             <h4 className="number">05</h4>
             <div className="service_content">
@@ -107,7 +107,7 @@ const Services = () => {
           </div>
           <div className="service_box">
             <div className="service_icon">
-              <FaCoins></FaCoins>
+              <FaCoins size={30} color="blue"></FaCoins>
             </div>
             <h4 className="number">06</h4>
             <div className="service_content">
