@@ -1,0 +1,30 @@
+#blog {
+  padding: 6rem 0 4rem;
+}
+.blog_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 992px) {
+  .blog_wrapper {
+    flex-direction: column-reverse;
+  }
+}
+.blog_col {
+  width: calc(100% / 2 -15px);
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 992px) {
+  .blog_col {
+    width: fit-content;
+    padding: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .blog_col {
+    padding: 1.5rem;
+  }
+}
