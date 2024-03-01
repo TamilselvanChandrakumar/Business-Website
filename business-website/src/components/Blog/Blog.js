@@ -22,7 +22,7 @@ const Blog = () => {
             </div>
           </div>
           <div className="blog_col">
-            <div className="blog_imgge">
+            <div className="blog_image">
               <img src={blogImage} alt="blog"></img>
             </div>
           </div>
