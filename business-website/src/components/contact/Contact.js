@@ -1,5 +1,6 @@
 import React from "react";
 import "../../components/contact/Contact.css";
+import contactImg from "../../assets/contact/contact.jpg";
 const Contact = () => {
   return (
     <section id="contact">
@@ -7,7 +8,7 @@ const Contact = () => {
         <div className="contact_wrapper">
           <div className="contact_col">
             <div className="contact_image">
-              <img alt=""></img>
+              <img src={contactImg} alt=""></img>
             </div>
           </div>
           <div className="contact_col">
@@ -39,6 +40,11 @@ const Contact = () => {
               </div>
               <div className="input_wrapper">
                 <textarea placeholder="write a message..."></textarea>
+              </div>
+              <div className="btn_wrapper">
+                <button type="submit" className="btn">
+                  Submit
+                </button>
               </div>
             </form>
           </div>
