@@ -1,8 +1,24 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../../components/footer/Footer.css";
 import { FaArrowUp } from "react-icons/fa6";
 const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
+
+  const scrollToTop = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  };
+
+  useEffect(() => {
+    const listenScroll = () => {
+      setIsVisible(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", listenScroll);
+
+    return () => {
+      window.removeEventListener("scroll", listenScroll);
+    };
+  });
   return (
     <>
       <section className="cotainer">
@@ -14,7 +30,7 @@ const Footer = () => {
         </div>
       </section>
       {isVisible && (
-        <div className="scroll_top">
+        <div className="scroll_top" onClick={scrollToTop}>
           <FaArrowUp size={30} color="black"></FaArrowUp>
         </div>
       )}
