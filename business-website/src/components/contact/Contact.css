@@ -88,5 +88,10 @@
   border-radius: 2.1429rem;
   position: relative;
   z-index: 2;
-  max-width: 85%;
+  width: 100%;
+}
+@media (max-width: 1400px) {
+  .contact_image img {
+    max-width: 85%;
+  }
 }
