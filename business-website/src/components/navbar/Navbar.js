@@ -28,19 +28,29 @@ const Navbar = () => {
           </div>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="#home" onClick={() => setSideNav(false)}>
+                Home
+              </a>
             </li>
             <li>
-              <a href="#about">About us</a>
+              <a href="#about" onClick={() => setSideNav(false)}>
+                About us
+              </a>
             </li>
             <li>
-              <a href="#service">Services</a>
+              <a href="#service" onClick={() => setSideNav(false)}>
+                Services
+              </a>
             </li>
             <li>
-              <a href="#blog">Blog</a>
+              <a href="#blog" onClick={() => setSideNav(false)}>
+                Blog
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact Us</a>
+              <a href="#contact" onClick={() => setSideNav(false)}>
+                Contact Us
+              </a>
             </li>
           </ul>
         </nav>
